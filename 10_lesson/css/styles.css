@@ -1,0 +1,114 @@
+/* Resetting default browser styles */
+body, h1, h2, h3, p, ul, li, table, figure, details {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main content styles */
+main {
+    padding: 20px 0;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    font-size: 24px;
+}
+
+aside {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+aside h3 {
+    font-size: 20px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+/* Image styles */
+figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
